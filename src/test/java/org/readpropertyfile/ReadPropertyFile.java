@@ -17,7 +17,7 @@ public class ReadPropertyFile {
 	Properties prop;
 	@Test
 	public void readFile(){
-	File file = new File("C:\\\\Users\\\\admin\\\\workspace\\\\sam\\\\FileProperties\\\\Config\\\\config.properties");
+	File file = new File("C:\\Users\\admin\\workspace\\sam\\FileProperties\\Config\\config.properties");
 	
 	try
 	{
