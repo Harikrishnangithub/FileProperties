@@ -17,11 +17,11 @@ public class ReadPropertyFile {
 	Properties prop;
 	@Test
 	public void readFile(){
-	File file = new File("C:\\Users\\admin\\workspace\\sam\\FileProperties\\Config\\config.properties");
+	File f = new File("C:\\Users\\admin\\workspace\\sam\\FileProperties\\Config\\config.properties");
 	
 	try
 	{
-		fileInputStream = new FileInputStream(file);
+		fileInputStream = new FileInputStream(f);
 	}
 	catch(FileNotFoundException e) {
 		e.printStackTrace();
